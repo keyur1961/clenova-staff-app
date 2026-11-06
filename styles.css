@@ -103,3 +103,42 @@ label{display:block;font-size:.85rem;font-weight:600;color:var(--muted);margin:0
 .toast.show{opacity:1}
 .back{background:transparent;border:0;color:var(--teal);font-weight:700;font-size:1.2rem;cursor:pointer;padding:4px 8px}
 .footer-note{text-align:center;font-size:.75rem;color:#94a3b8;padding:8px 16px 16px}
+
+/* Role grid 5 */
+.role-grid-5{grid-template-columns:repeat(3,1fr)}
+.role-grid-5 .role-btn{font-size:.78rem;padding:10px 4px}
+
+/* Missing banner */
+.missing-banner{background:#fef2f2;border:2px solid #fecaca;color:var(--danger);border-radius:var(--radius);padding:12px 14px;margin-bottom:12px;font-size:.9rem}
+.missing-banner ul{margin:8px 0 0;padding-left:18px}
+.missing-banner li{margin:2px 0}
+
+/* Photo list / match */
+.photo-list{display:flex;flex-direction:column;gap:8px}
+.photo-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px;border:1px solid var(--line);border-radius:12px;background:#f8fafc}
+.photo-row.has{border-color:var(--teal);background:var(--mint)}
+.photo-row-main{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
+.photo-label{font-weight:700;font-size:.92rem}
+.photo-label .req{color:var(--danger)}
+.photo-placeholder{width:56px;height:42px;border-radius:8px;background:#e2e8f0;display:grid;place-items:center;font-size:1.1rem;flex-shrink:0}
+.photo-placeholder.sm{width:64px;height:48px;margin:0 auto 6px}
+.photo-thumb{width:56px;height:42px;border-radius:8px;overflow:hidden;background:#e2e8f0;flex-shrink:0}
+.photo-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-thumb.has{outline:2px solid var(--teal)}
+.photo-btn{width:auto!important;position:relative;overflow:hidden;cursor:pointer;margin:0}
+.photo-btn input{position:absolute;inset:0;opacity:0;cursor:pointer}
+
+.photo-match-card{border:1px solid var(--line);border-radius:12px;padding:10px;margin-bottom:8px;background:#fff}
+.photo-match-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:8px}
+.match-col{text-align:center}
+.match-col .photo-thumb{width:100%;height:64px;margin:0 auto 6px}
+.match-col .btn{width:100%;padding:6px 4px;font-size:.72rem}
+
+.tag.insp{background:#ede9fe;color:#5b21b6}
+
+/* Tasks */
+.task-check{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.95rem;cursor:pointer}
+.task-check:last-child{border-bottom:0}
+.task-check input{width:20px;height:20px;margin-top:2px;flex-shrink:0}
+.task-edit-row{display:flex;gap:8px;margin-bottom:8px}
+.task-edit-row input{flex:1;padding:10px 12px;border:1px solid #cbd5e1;border-radius:10px}
