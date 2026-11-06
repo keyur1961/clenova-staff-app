@@ -1,0 +1,9 @@
+{
+  "name": "Clenova Staff",
+  "short_name": "Clenova",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ecfdf5",
+  "theme_color": "#0f766e",
+  "description": "Clenova Care Solutions staff check-in, photos, inspections & client portal"
+}
